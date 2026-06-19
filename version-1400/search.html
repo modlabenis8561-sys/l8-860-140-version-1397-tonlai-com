@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-国产好剧</title>
+  <meta name="description" content="国产好剧影片搜索页，支持按片名、类型、地区、年份与标签查找高清免费影视内容。">
+  <meta name="keywords" content="国产影视视频免费在线观看|高清影视片库排行榜-国产好剧,国产,视频,免费,在线观看,高清,影视大全">
+  <link rel="stylesheet" href="./assets/original.css">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="brand" href="./index.html" aria-label="国产好剧">
+      <span class="brand-mark">剧</span>
+      <span class="brand-text">国产好剧</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="展开导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-panel">
+      <div class="nav-links">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./ranking.html">排行榜</a>
+          <a href="./categories/chinese-hot.html">华语精选</a>
+          <a href="./categories/asia-hot.html">日韩亚影</a>
+          <a href="./categories/euro-america.html">欧美片库</a>
+          <a href="./categories/suspense-crime.html">悬疑犯罪</a>
+          <a href="./categories/action-adventure.html">动作冒险</a>
+          <a href="./categories/romance-life.html">都市爱情</a>
+      </div>
+      <form class="nav-search" action="./search.html" method="get" data-search-form>
+        <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </nav>
+</header>
+<main class="page-shell">
+  <section class="page-title">
+    <h1 id="searchTitleText">影片搜索</h1>
+    <p>输入片名、类型、地区、年份或标签，快速定位想看的影片。</p>
+    <form id="pageSearchForm" class="search-box-large" action="./search.html" method="get">
+      <input id="pageSearchInput" type="search" name="q" placeholder="例如：悬疑 犯罪 2025" autocomplete="off">
+      <button class="filter-button" type="submit">搜索</button>
+    </form>
+  </section>
+  <section class="section-block">
+    <div id="searchResults" class="movie-grid"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>国产好剧</strong>
+      <p>汇集国产影视等内容，提供视频免费在线观看服务，支持高清播放与分类筛选，便于按排行榜与影视片库浏览热门影视内容。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </div>
+  </div>
+</footer>
+<script src="./assets/search-index.js"></script>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
